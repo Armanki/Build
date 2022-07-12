@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Cropper from "react-easy-crop";
+import Button from "@material-ui/core/Button";
 import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
 import { Dialog } from "@mui/material";
@@ -12,7 +13,7 @@ import { useActions } from "../../hooks/useActions";
 const dogImg =
   "https://img.huffingtonpost.com/asset/5ab4d4ac2000007d06eb2c56.jpeg?cache=sih0jwle4e&ops=1910_1000";
 
-const UserAvatar = () => {
+const UseAvatar = () => {
   const [crop, setCrop] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(1);
   const { openSignInModal, cleanErrorAction } = useActions();
@@ -57,6 +58,13 @@ const UserAvatar = () => {
                 onChange={(e, zoom: any) => setZoom(zoom)}
               />
             </div>
+            <Button
+              variant="contained"
+              color="primary"
+              className={styles.cropButton}
+            >
+              Show Result
+            </Button>
           </div>
         </Dialog>
       </Container>
@@ -64,4 +72,4 @@ const UserAvatar = () => {
   );
 };
 
-export default UserAvatar;
+export default UseAvatar;
