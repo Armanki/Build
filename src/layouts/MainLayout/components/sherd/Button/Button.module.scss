@@ -1,0 +1,15 @@
+@import "public/assets/variables";
+
+.button {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $blueColor;
+  border-radius: 12px;
+  color: $white;
+  font-size: 16px;
+  padding: 0 20px;
+  width: 204px;
+  border: none;
+}

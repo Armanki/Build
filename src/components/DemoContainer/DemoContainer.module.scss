@@ -1,0 +1,243 @@
+@import "public/assets/variables";
+
+.container {
+  width: 80%;
+  position: relative;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  background: $wholeColor;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: unset;
+  background-position: right;
+  background-position-y: 60px;
+  background-position-x: 520px;
+}
+
+.text1 {
+  margin-left: 240px;
+}
+
+.text2 {
+  margin-left: 180px;
+}
+
+.text3 {
+  margin-left: 150px;
+}
+
+.text4 {
+  margin-left: 80px;
+}
+
+.text5 {
+  margin-left: 150px;
+}
+
+.text6 {
+  margin-left: 220px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.leftColumn {
+  font-weight: bold;
+  color: $demoColor;
+  line-height: 30px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1290px) {
+  .leftColumn {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .container {
+    margin: 50px auto;
+    width: 90%;
+    background-position-y: 30px;
+    background-position-x: 450px;
+    background-size: 450px;
+  }
+  .text1 {
+    margin-left: 200px;
+  }
+  .text2 {
+    margin-left: 160px;
+  }
+  .text3 {
+    margin-left: 130px;
+  }
+  .text4 {
+    margin-left: 60px;
+  }
+  .text5 {
+    margin-left: 130px;
+  }
+  .text6 {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .leftColumn {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .container {
+    margin: 50px auto;
+    width: 95%;
+    background-position-y: 30px;
+    background-position-x: 370px;
+    background-size: 370px;
+  }
+  .text1 {
+    margin-top: 40px;
+    margin-left: 180px;
+  }
+  .text2 {
+    margin-left: 140px;
+  }
+  .text3 {
+    margin-left: 110px;
+  }
+  .text4 {
+    margin-left: 40px;
+  }
+  .text5 {
+    margin-left: 110px;
+  }
+  .text6 {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .leftColumn {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .container {
+    width: 95%;
+    background-position-y: 40px;
+    background-position-x: 260px;
+    background-size: 280px;
+  }
+  .text1 {
+    margin-top: 40px;
+    margin-left: 130px;
+  }
+  .text2 {
+    margin-left: 100px;
+  }
+
+  .text3 {
+    margin-left: 70px;
+  }
+
+  .text4 {
+    margin-left: 20px;
+  }
+
+  .text5 {
+    margin-left: 80px;
+  }
+
+  .text6 {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .leftColumn {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .container {
+    width: 95%;
+    background-position-y: 40px;
+    background-position-x: 200px;
+    background-size: 220px;
+  }
+  .text1 {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  .text2 {
+    margin-left: 70px;
+  }
+  .text3 {
+    margin-left: 40px;
+  }
+  .text4 {
+    margin-left: 5px;
+  }
+  .text5 {
+    margin-left: 50px;
+  }
+  .text6 {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .leftColumn {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .container {
+    height: 230px;
+    width: 95%;
+    background-position-y: 40px;
+    background-position-x: 150px;
+    background-size: 150px;
+  }
+  .text1 {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .text2 {
+    margin-left: 50px;
+  }
+  .text3 {
+    margin-left: 40px;
+  }
+  .text4 {
+    margin-left: 20px;
+  }
+  .text5 {
+    margin-left: 40px;
+  }
+  .text6 {
+    margin-left: 60px;
+  }
+}

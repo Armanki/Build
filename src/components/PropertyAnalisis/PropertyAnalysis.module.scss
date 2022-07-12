@@ -1,0 +1,137 @@
+@import "public/assets/variables";
+
+.searchContainer {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  height: 476px;
+  background-color: $wholeColor;
+  border-radius: 28px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-left: 100px;
+}
+
+.title {
+  margin-top: 141px;
+  color: $thickWords;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.text {
+  max-width: 489px;
+  max-height: 44px;
+  width: 75%;
+  color: $textColor;
+}
+
+.buttonsWrap {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  background-color: $wholeColor;
+  height: 52px;
+  border-radius: 12px;
+  width: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .button {
+    font-size: 16px;
+    padding: 8px 12px;
+    color: $textColor;
+    border: none;
+    background-color: $wholeColor;
+  }
+
+  .activeButton {
+    color: $thickWords;
+    background-color: $white;
+    border-radius: 9px;
+    border-color: $white;
+  }
+}
+
+.uiSelectButtonWrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $white;
+  height: 72px;
+  max-width: 658px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 64px;
+  box-sizing: border-box;
+}
+.textTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: $thickWords;
+  font-size: 32px;
+  font-weight: bold;
+}
+.textContainer {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+
+  color: $textColor;
+}
+
+@media screen and (max-width: 1024px) {
+  .textTitle {
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .title {
+    margin-top: 68px;
+    font-size: 32px;
+  }
+  .searchContainer {
+    padding: 0 30px;
+    margin: 0 10px;
+  }
+  .uiSelectButtonWrap {
+    margin-top: auto;
+    margin-bottom: 75px;
+  }
+  .uiSelectButtonWrap {
+    height: 65px;
+    max-width: 616px;
+  }
+  .buttonsWrap {
+    height: 50px;
+    width: 143px;
+
+    .button {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textTitle {
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .title {
+    margin-top: 46px;
+    font-size: 26px;
+    padding: 0 36px;
+  }
+  .searchContainer {
+    margin: 0 10px;
+  }
+  .text {
+    padding: 0 36px;
+  }
+  .uiSelectButtonWrap {
+    margin: auto auto 0 auto;
+  }
+}

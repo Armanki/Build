@@ -1,0 +1,75 @@
+@import "public/assets/variables";
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 28px !important;
+  width: 450px;
+  margin: 10px 0 !important;
+}
+
+.input {
+  margin: 40px auto !important;
+  max-width: 420px;
+  width: 100%;
+  border: #acacac !important;
+  border-radius: 12px;
+  position: relative;
+}
+.button {
+  border-radius: 12px !important;
+  background-color: $demoColor !important;
+  height: 50px;
+  max-width: 420px;
+  width: 100%;
+  margin-left: 40px !important;
+}
+.buttonLink {
+  text-decoration: none;
+  color: $white;
+}
+.forgotPass {
+  color: #377dff;
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+.more {
+  color: #377dff;
+  margin-left: 10px;
+}
+.signInWith {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #919191 !important;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.img {
+  margin-left: 40%;
+  margin-bottom: 15px;
+  width: 15%;
+}
+.error {
+  color: red;
+  margin-left: 40%;
+  margin-bottom: 15px;
+}
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

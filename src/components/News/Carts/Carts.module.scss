@@ -1,0 +1,48 @@
+@import "public/assets/variables";
+
+.name {
+  color: $smallGlory;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 8px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 352px;
+  width: 100%;
+}
+
+.data {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: $brownColor;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  color: $textColor;
+}
+
+.img {
+  width: 100%;
+  height: 6px;
+}
+
+.nameText {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  padding: 20px 16px 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}

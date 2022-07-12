@@ -1,0 +1,47 @@
+@import "public/assets/variables";
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 28px !important;
+  width: 400px;
+  margin: 10px 0 !important;
+}
+
+.input {
+  margin: 25px auto !important;
+  max-width: 350px;
+  width: 100%;
+  border: $dataColor !important;
+  border-radius: 16px !important;
+}
+.buttonRow {
+  border-radius: 16px !important;
+  background-color: $demoColor !important;
+  height: 30px;
+  max-width: 350px;
+  width: 100%;
+  margin: 40px auto 50px auto !important;
+}
+.button {
+  height: 50px;
+  max-width: 350px;
+  background-color: $demoColor !important;
+}
+
+.haveAnAccountWrap {
+  margin: 0 auto 10px auto;
+  display: flex;
+  font-size: 18px;
+  color: $textColor;
+}
+
+.img {
+  width: 15%;
+  margin: auto;
+}
+.error {
+  color: $red;
+  margin: 5px auto;
+}

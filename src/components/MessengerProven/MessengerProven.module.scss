@@ -1,0 +1,55 @@
+@import "public/assets/variables";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+.img {
+  margin: 8px 5px 0 0px;
+  width: 30px;
+  height: 30px;
+}
+.title {
+  font-size: 32px;
+  color: $thickWords;
+  margin: 0 6px;
+  font-weight: bold;
+}
+.text {
+  font-size: 18px;
+  color: $textColor;
+  max-width: 70%;
+}
+.top {
+  display: flex;
+}
+
+.message {
+  width: 33%;
+  margin-left: 15%;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    max-width: 300px;
+  }
+  .title {
+    font-size: 18px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+  .text {
+    max-width: 200px;
+  }
+}

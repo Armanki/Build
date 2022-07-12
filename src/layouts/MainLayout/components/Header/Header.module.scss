@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  width: 100%;
+  background: #ffffff;
+  padding: 0 30px;
+
+  div {
+    color: #377dff;
+  }
+}
+.signIn {
+  display: block;
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin-right: 60px;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 100%;
+  color: #377dff;
+}
+
+.buildOptima {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .buildOptima {
+    width: 70%;
+  }
+}

@@ -1,0 +1,40 @@
+@import "public/assets/variables";
+.row {
+  width: 100%;
+}
+.accountRow {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid $brownColor;
+  border-radius: 12px;
+  width: 70%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: end;
+}
+
+.edit {
+  max-width: 50px;
+  width: 100%;
+  height: 20px;
+  background-color: $white;
+  color: $blueColor;
+  border: none;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.childrenTitle {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+@import "public/assets/variables";
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 64px;
+  border-radius: 16px;
+  max-width: 658px;
+  width: 100%;
+  height: 72px;
+  border: $white;
+  background-color: $white;
+}
+
+.searchIcon {
+  margin: 26px 0 27px 12px;
+}
+
+.input {
+  max-width: 380px;
+  width: 100%;
+  height: 17.21px;
+}
+
+.addresApnContainer {
+  max-width: 155px;
+  width: 100%;
+  height: 52px;
+  background-color: $wholeColor;
+  margin: 10px 10px 10px 0;
+}
+
+.selectError {
+  border-bottom: 1px solid $red;
+}
+
+.errorMessage {
+  color: $red;
+}
+
+.selectWrap {
+  width: 100%;
+}

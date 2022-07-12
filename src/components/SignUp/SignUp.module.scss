@@ -1,0 +1,61 @@
+@import "public/assets/variables";
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 28px !important;
+  width: 520px;
+  margin: 10px 0 !important;
+}
+.inputsWrap {
+  display: flex;
+  justify-content: center;
+}
+.firstInput {
+  margin-right: 30px;
+}
+.inputsWrap2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+}
+.input {
+  margin: 15px auto !important;
+  max-width: 480px;
+  width: 100%;
+  border: $dataColor !important;
+  border-radius: 12px;
+}
+.button {
+  border-radius: 12px !important;
+  background-color: $demoColor !important;
+  height: 50px;
+  max-width: 480px;
+  width: 100%;
+  margin: 15px auto !important;
+}
+
+.span {
+  max-width: 480px;
+  width: 100%;
+  margin: 20px auto;
+  color: $architect-bold;
+}
+.haveAnAccountWrap {
+  margin: 0 auto 10px auto;
+  display: flex;
+  font-size: 18px;
+  color: $textColor;
+}
+.signIn {
+  margin: 18px 15px;
+  color: $blueColor;
+}
+.img {
+  width: 15%;
+  margin: auto;
+}
+.error {
+  color: $red;
+  margin: 5px auto;
+}
