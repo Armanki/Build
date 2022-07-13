@@ -4,10 +4,9 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import { Dialog } from "@mui/material";
+import { Box, Button, Container, Dialog, TextField } from "@mui/material";
 import DialogTitle from "@mui/material/DialogTitle";
 import IconButton from "@mui/material/IconButton";
-import { Box, Button, Container, TextField } from "material-ui-core";
 
 import styles from "../../layouts/ProfileLayout/Account/ProfilePopups/PasswordPopup/PasswordPopup.module.scss";
 import style from "./SingIn.module.scss";

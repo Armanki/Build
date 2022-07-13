@@ -1,7 +1,7 @@
 import * as React from "react";
+import { Container } from "@mui/material";
 import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
-import { Container } from "material-ui-core";
 
 import styles from "./SuccessPopup.module.scss";
 

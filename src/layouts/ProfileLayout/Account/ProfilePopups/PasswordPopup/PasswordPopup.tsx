@@ -3,11 +3,11 @@ import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
+import { Box, Button, Container, TextField } from "@mui/material";
 import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
 import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
-import { Box, Button, Container, TextField } from "material-ui-core";
 
 import styles from "./PasswordPopup.module.scss";
 

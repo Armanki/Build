@@ -1,9 +1,9 @@
 import * as React from "react";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
+import { Box, Button, Container, TextField } from "@mui/material";
 import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
-import { Box, Button, Container, TextField } from "material-ui-core";
 
 import styles from "./ContactInformationPopup.module.scss";
 

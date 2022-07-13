@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import Cropper from "react-easy-crop";
-import Button from "@material-ui/core/Button";
-import Slider from "@material-ui/core/Slider";
-import Typography from "@material-ui/core/Typography";
-import { Dialog } from "@mui/material";
-import { Container } from "material-ui-core";
+import { Button, Container, Dialog, Slider, Typography } from "@mui/material";
 
 import styles from "./UserAvatar.module.scss";
 

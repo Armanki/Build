@@ -2,8 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { useHistory, useLocation } from "react-router-dom";
+import { Box, Button, Container, TextField } from "@mui/material";
 import DialogTitle from "@mui/material/DialogTitle";
-import { Box, Button, Container, TextField } from "material-ui-core";
 
 import styles from "./Recover.module.scss";
 
